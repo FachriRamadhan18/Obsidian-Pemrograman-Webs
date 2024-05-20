@@ -9,7 +9,7 @@ p {
 }
 ```
 **hasil program :** 
- ![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_1.png)
+ ![Gambar](Aset/IMG8/IMG8_1.png)
 > [!info]- Penjelasan
 >>Jadi pada contoh program di atas *P* berperan sebagai **selector** lalu *color* berperean sebagai **Property** dan *Red* berperan sebagai **Property Value**.
 
@@ -25,7 +25,7 @@ DIV adalah elemen tingkat blok yang digunakan untuk membuat bagian, sedangkan SP
 >>Span ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan mengambil sesuai yang diketikkan saja.
 ### Perbedaan div & span
 Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya seperti yang sudah dijelaskan di atas yaitu div mengambil cakupan satu baris sedangkat span hanya mengambil cakupan sesuai yang diketikkan saja, untuk contohnya akan seperti dibawah ini :
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_2.png)
+![Gambar](Aset/IMG8/IMG8_2.png)
 
 
 # Tantangan I
@@ -41,7 +41,7 @@ Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya sepert
       <p>Welcome CSS</p>
 ```
 **Hasil program :**
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_3.png)
+![Gambar](Aset/IMG8/IMG8_3.png)
 
 > [!info]- Penjelasan 
 >> disini isi dari tag p berubah menjadi berwarnah merah di akibatkan oleh style css tepatnya property color yang dibarengi dengan value red sehinggan hasil dari tag p yang telah dipanggil oleh style css berubah menjadi warna merah.
@@ -66,27 +66,27 @@ Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya sepert
 
 ### Font-weight
 **Before :
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
+![Gambar](Aset/IMG8/IMG8_4.png)
 After :**
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_5.png)
+![Gambar](Aset/IMG8/IMG8_5.png)
 
 > [!info]- Penjelasan *font weight*
 >> untuk font-weight ini akan merubah ketebalan teks dan contohnya disini kita mengguanakan *property value* yang bold sehingga merubah teksnya menjadi tebal 
 
 ### Text-transform
 **Before :
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
+![Gambar](Aset/IMG8/IMG8_4.png)
 After :**
-![Gambar](IMG8_6.png)
+![Gambar](Aset/IMG8/IMG8_6.png)
 
 > [!Info]- Penjelasan *Text transfrom*
 >> Untuk teks tranfrom kita menggunakan property value uppercase sehingga mengubah tulisan yang telah di ketikkan berubah menjadi huruf capital
 
 ### Border-radius
 **Before :
-![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
+![Gambar](Aset/IMG8/IMG8_4.png)
 After :**
-![Gambar](IMG8_7.png)
+![Gambar](Aset/IMG8/IMG8_7.png)
 
 > [!Info]- Penjelasan *Border radius*
 >> Untuk border radius ini dapat menebalkan atau memperluas jarak dari tepi border sesuai yang kita inginkan
@@ -175,7 +175,7 @@ text align ini mengatur rata kiri kanan dari sebuah teks yang akan di ketik dan 
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_8.png)
+![Gambar](Aset/IMG8/IMG8_8.png)
 
 #### Text-Decoration
 text-decoration berfungsi untuk memberi dekorasi pada teks yang akan ditulis sesuai dengan value yang akan digunakan seperti contoh yang saya ambil yaitu *"underline"* yang berfungsi untuk membuat garis dibawah tulisan, untuk contohnya akan seperti berikut :
@@ -185,7 +185,7 @@ text-decoration berfungsi untuk memberi dekorasi pada teks yang akan ditulis ses
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_9.png)
+![Gambar](Aset/IMG8/IMG8_9.png)
 
 #### Text-Trasformation
 text-transformation ini berfungsi untuk mengtransformasikan teks yang telah dibuat seperti contoh yang saya gunakan ialah membuat teks menjadi kapital menggunakan value *"uppercase"* untuk contohnya akan seperti dibawah ini :
@@ -195,7 +195,7 @@ text-transformation ini berfungsi untuk mengtransformasikan teks yang telah dibu
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_10.png)
+![Gambar](Aset/IMG8/IMG8_10.png)
 
 #### Teks-Indent
 teks-indent ini berfungsi untuk memberi jarak di awal penulisan atau simpelnya seperti mengetik "tab" pada keayboard kita dan untuk valuenya dapat di isi sesuai dengan keinginan kita. Contohnya akan seperti berikut :
@@ -205,7 +205,7 @@ teks-indent ini berfungsi untuk memberi jarak di awal penulisan atau simpelnya s
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_11.png)
+![Gambar](Aset/IMG8/IMG8_11.png)
 
 #### Letter-Spacing
 lalu untuk latter-spacing ialah untuk memberi jarak di antara setiap huruf yang telah diketikkan dan untuk valuenya dapat ditentukan sesuai keignginan kita, untuk lebih jelasnya berikut contoh program dan asilnya :
@@ -215,7 +215,7 @@ lalu untuk latter-spacing ialah untuk memberi jarak di antara setiap huruf yang 
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_12.png)
+![Gambar](Aset/IMG8/IMG8_12.png)
 
 #### Line-Height
 untuk line-height ialah untuk memberi jarak pada suatu teks dengan teks di atasnya dan valuenya dapat di atur sesuai dengan keinginan, lalu untuk contoh program serta hasilnya akan seperti dibawah ini :
@@ -225,7 +225,7 @@ untuk line-height ialah untuk memberi jarak pada suatu teks dengan teks di atasn
 }
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar](IMG8_13.png)
+![Gambar](Aset/IMG8/IMG8_13.png)
 
 #### Word-Spacing
 dan terakhir ialah word-spacing fungsinya untuk memberi jarak di antara setiap kata dan valuenya dapat di atur sesuai keinginan kita, lalu untuk contoh program dan hasilnya akan seperti berikut :
@@ -235,7 +235,7 @@ dan terakhir ialah word-spacing fungsinya untuk memberi jarak di antara setiap k
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_14.png)
+![Gambar](Aset/IMG8/IMG8_14.png)
 
 
 ## ==Materi Background==
@@ -249,7 +249,7 @@ untuk background image ini kita akan dapat menampilkan background dengan image s
 }
 ```
 dan hasilnya akan speeri berikut :
-![Gambar](IMG8_15.png)
+![Gambar](Aset/IMG8/IMG8_15.png)
 
 #### Background-Size
 lalu untuk background size kita mengatur size/ukuran dari background yang kita gunakan dan valuenya dapat kita atur sesuai dengan keinginan kita. untuk contoh penggunananya akan seperti berikut ini :
@@ -263,7 +263,7 @@ lalu untuk background size kita mengatur size/ukuran dari background yang kita g
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_16.png)
+![Gambar](Aset/IMG8/IMG8_16.png)
 
 #### Background-Repeat
 untuk background-repeat ini mengulang gambar dalam ukurannya dan untuk penggunaannya akan seperti dibawah ini:
@@ -278,7 +278,7 @@ untuk background-repeat ini mengulang gambar dalam ukurannya dan untuk penggunaa
 }
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar](IMG8_17.png)
+![Gambar](Aset/IMG8/IMG8_17.png)
 
 
 #### Background-Attachment
@@ -294,7 +294,7 @@ background-attachment ini mengatur ketetapan image yang di gunakan contohnya ial
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_18.png)
+![Gambar](Aset/IMG8/IMG8_18.png)
 
 
 #### Background-Postion
@@ -311,7 +311,7 @@ dan yang terakhir ialah background-postion dan fungsinya ialah untuk mengatur po
 }
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar](IMG8_19.png)
+![Gambar](Aset/IMG8/IMG8_19.png)
 
 
 ## ==Materi Font==
@@ -326,7 +326,7 @@ untuk font-size berfungsi untuk mengatur ukuran dari teks yang di ketikkan dan v
 }
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar](IMG8_20.png)
+![Gambar](Aset/IMG8/IMG8_20.png)
 
 #### Font-Style
 untuk font-style berfungsi untuk mengatur gaya dari teks yang diketikkan untuk value bisa dipilih sesuai dengan yang kita inginkan, contohnya saya disini saya menggunakan *italic* untuk program dan hasilnya akan seperti dibawah ini :
@@ -337,7 +337,7 @@ untuk font-style berfungsi untuk mengatur gaya dari teks yang diketikkan untuk v
 }
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar](IMG8_21.png)
+![Gambar](Aset/IMG8/IMG8_21.png)
 
 
 #### Font-Weight
@@ -350,7 +350,7 @@ untuk font-weight adalah untuk mengatur ketebalan dari teks yang kita ketikkan d
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_22.png)
+![Gambar](Aset/IMG8/IMG8_22.png)
 
 
 #### Font-Family
@@ -364,13 +364,13 @@ dan yang terakhir ialah font-family ialah untuk mengatur jenis font yang diingin
 }
 ```
 dan hasilnya akan seperti berikut :
-![Gambar](IMG8_23.png)
+![Gambar](Aset/IMG8/IMG8_23.png)
 
 
 
 # Box model
 Untuk box model kita akan mempelajari mengenai border, padding, margin dan hal hal lainnya mengenai permodelan box. untuk lebih jelasnya kita akan menggunakan contoh di bawah :
-![Gambar](IMG9_1.png)
+![Gambar](Aset/IMG9/IMG9_1.png)
 
 untuk membuat button dengan model di atas kita akan menggunakan beberapa style disini saya akan menjelaskan mengenai border dan padding pada button ini namun saya tidak akan menjelaskan mengenai style lainnya dikarenakan telah di jelaskan di materi sebelumnya, berikut ialah style style yang digunakan :
 ```css
@@ -466,7 +466,7 @@ untuk membuat button dengan model di atas kita akan menggunakan beberapa style d
 }
 ```
 **Hasilnya akan seperti berikut :**
-![Gambar](IMG9_3.png)
+![Gambar](Aset/IMG9/IMG9_3.png)
 
 
 ## ==Border==
@@ -495,7 +495,7 @@ Padding-bottom ini berfungsi untuk mengatur jarak antara objek dengan bordernya 
 
 ## Contoh Border Lain
 Untuk contoh border kedua ialah menggunakan margin untuk mengatur jarak buttonnya menggunakan padding  contohnya akan seperti di bawah ini :
-![Gambar](IMG9_2.png)
+![Gambar](Aset/IMG9/IMG9_2.png)
 
 ## ==Margin== 
 Fungsi dari margin yang akan kita pelajari ialah fungsi dari margin right,left,top dan bottom. Untuk lebih jelasnya akan dijelaskan di bawah ini.
@@ -529,7 +529,7 @@ button:hover{
 }
 ```
 **Hasil :**
-![Gambar](IMG10_1.png)
+![Gambar](Aset/IMG10/IMG10_1.png)
 #### Kesimpulan
 property dalam style button yang diberi hover akan mengubah button pada saat kursor di arahkan ke arah objek (Hover) sesuai degan yang di isikan di `button:hover` seperti yang telah nampak di atas. 
 
@@ -543,7 +543,7 @@ button:active{
 }
 ```
 **Hasil :**
-![Gambar](IMG10_2.png)
+![Gambar](Aset/IMG10/IMG10_2.png)
 #### Kesimpulan
 Teks "klik broo" akan berganti warna menjadi kuning jika ditekan sesuai dengan program di atas. 
 
@@ -667,9 +667,9 @@ img{
 
 ```
 **Hasil Before :**
-![Gambar](IMG10_4.png)
+![Gambar](Aset/IMG10/IMG10_4.png)
 **Hasil After :**
-![Gambar](IMG10_5.png)
+![Gambar](Aset/IMG10/IMG10_5.png)
 
 
 # Transform 
@@ -689,7 +689,7 @@ button:active{
   }
 ```
 **Hasil :**
-![Gambar](IMG10_3.png)
+![Gambar](Aset/IMG10/IMG10_3.png)
 
 #### Kesimpulan
 Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
@@ -836,7 +836,7 @@ Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`fle
       }
 ```
 **Hasil :**
-![Gambar](IMG10_4.png)
+![Gambar](Aset/IMG10/IMG10_4.png)
 
 # Position
 ## Position Relative
@@ -856,9 +856,9 @@ box-1{
 ```
 ### Hasil 
 **Before :**
-![Gambar](IMG11_1.png)
+![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
-![Gambar](IMG11_2.png)
+![Gambar](Aset/IMG11/IMG11_2.png)
 #### Kesimpulan
 elemen dengan kelas "box-1" mengatur latar belakang menjadi warna aqua dan menggeser elemen 20 piksel ke bawah dan 30 piksel ke kanan dari posisi defaultnya.
 ## Position Absolute
@@ -879,9 +879,9 @@ elemen dengan kelas "box-1" mengatur latar belakang menjadi warna aqua dan mengg
 ```
 ### Hasil 
 **Before :**
-![Gambar](IMG11_1.png)
+![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
-![Gambar](IMG11_3.png)
+![Gambar](Aset/IMG11/IMG11_3.png)
 ### Kesimpulan
 kelas "box-2" menetapkan latar belakangnya menjadi warna ungu (purple) dan mengatur posisinya secara absolut,dimana elemen digeser 15 piksel dari atas dan 10 piksel dari kiri.
 
@@ -902,9 +902,9 @@ box-1{
 ```
 ### Hasil 
 **Before :**
-![Gambar](IMG11_1.png)
+![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
-![Gambar](IMG11_4.png)
+![Gambar](Aset/IMG11/IMG11_4.png)
 ### Kesimpulan
 position: fixed, elemen akan tetap berada pada posisinya yang ditentukan jika discrool.properti top dan left digunakan untuk menentukan jarak elemen dari tepi atas dan kiri. 
 
@@ -925,9 +925,9 @@ box-1{
 ```
 ### Hasil 
 **Before :**
-![Gambar](IMG11_1.png)
+![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
-![Gambar](IMG11_5.png)
+![Gambar](Aset/IMG11/IMG11_5.png)
 ### Kesimpulan
 `position: sticky`, elemen akan seperti posisi relatif sampai jarak scroll mencapai nilai tertentu. elemen akan tetap berada pada posisi yang telah ditentukan saat jarak scroll mencapai nilai tertentu, sambil tetap mengikuti pergeseran scroll di bawahnya.
 
@@ -1095,7 +1095,7 @@ box-1{
 - `.like img`: Mengatur gaya untuk gambar di dalam tombol "suka".
 - `.item3 img`: Mengatur gaya untuk gambar di dalam item 3.
 **Hasil :**
-![Gambar](IMG11_6.png)
+![Gambar](Aset/IMG11/IMG11_6.png)
 ## Kesimpulan
 Program ini menggunakan HTML untuk membuat struktur konten dan CSS untuk merancang tampilannya. Elemen-elemen seperti gambar, teks, dan tombol diberikan gaya untuk menciptakan tampilan yang menarik dan responsif. Penggunaan posisi relatif, absolut, dan sticky memungkinkan penempatan yang tepat dari elemen-elemen tersebut di halaman.
 
@@ -1174,9 +1174,9 @@ Saat mendesain website, mulailah dengan mempertimbangkan tampilan website pada p
 
 # Implementasi CSS Responsif
 **Sebelum Responsif :**
-![Gambar](IMG_1.png)
+![Gambar](Aset/IMG12/IMG_1.png)
 **Sesudah Responsif :**
-![Gambar](IMG_2.png)
+![Gambar](Aset/IMG12/IMG_2.png)
 ## Kode
 ### HTML
 ```html
