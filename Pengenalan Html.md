@@ -19,7 +19,7 @@ Kode program :
 ```
 
 Hasil Program :
-![Gambar 18](Aset/IMG4/IMG4_(1).jpg)
+![Gambar 18](IMG4_(1).jpg)
 
 ## penjelasan program
 - `<>` disebut sebagai *tag* dalam program, dan setiap *tag* memiliki fungsinya masing masing.
@@ -52,7 +52,7 @@ Kode Program :
 ```
 
 Hasil Program :
-![Gambar 2](Aset/IMG4/IMG4_(2).jpg)
+![Gambar 2](IMG4_(2).jpg)
 
 ## penjelasan program 
 - `<a href="https://www.instagram.com/">` merupakan tag pembuka.
@@ -76,10 +76,10 @@ Berikut ialah penjelasan dari contoh program "Paragraf" dan "Heading"
 
 ## Penjelasan Paragraf 
 Kode Program :
-![Gambar 3](Aset/IMG4/IMG4_(3).jpg)
+![Gambar 3](IMG4_(3).jpg)
 
 Hasil Program :
-![Gambar 4](Aset/IMG4/IMG4_(4).jpg)
+![Gambar 4](IMG4_(4).jpg)
 
 
 Penjelasan Program :
@@ -88,10 +88,10 @@ Program ini berfokus pada penjelasan mengenai tag  `<p>` tag ini berfungsi untuk
 
 ## Penjelasan Heading
 Kode Program :
-![Gambar 5](Aset/IMG4/IMG4_(5).jpg)
+![Gambar 5](IMG4_(5).jpg)
 
 Hasil Program : 
-![Gambar 6](Aset/IMG4/IMG4_(6).jpg)
+![Gambar 6](IMG4_(6).jpg)
 
 Penjelasan Program : 
 Program ini berfokus pada penjelasan tag `<h>` yang berfungsi untuk membuat heading (judul), dan memiliki 6 tingkatan mulai dari `<h1>` sampai `<h6>` semakin rendah angkanya semakin besar juga ukuran fontnya.
@@ -100,10 +100,10 @@ Program ini berfokus pada penjelasan tag `<h>` yang berfungsi untuk membuat head
 ##  elemen pada tag heading
 untuk tag `<h>`terdapat elemen yaitu "*align*" yang dapat mengubah perataan teks sesuai dengan nilai elemennya contoh nya ialah seperti dibawah ini :
 Kode Program :
-![Gambar 7](Aset/IMG4/IMG4_(7).jpg)
+![Gambar 7](IMG4_(7).jpg)
 
 Hasil Program :
-![Gambar 8](Aset/IMG5/IMG5_(1).jpg)
+![Gambar 8](IMG5_(1).jpg)
 kesimpulan : 
 kesimpulannya ialah tag `<p>`memilki atribut tag yaitu "*align*" yang memiliki fungsi untuk perataan teks pada paragraf yang sesuai nilai atribut, dan terdapat 4 nilai atribut dari "*align*" yaitu :
 - left (rata kiri)
@@ -144,7 +144,7 @@ Kode Program :
 ```
 
 Hasil Program :
-![Gambar 9](Aset/IMG5/IMG5_(2).jpg)
+![Gambar 9](IMG5_(2).jpg)
 
 
 
@@ -165,7 +165,7 @@ Kode program :
 ```
 
 Hasil Program :
-![Gambar 10](Aset/IMG5/IMG5_(3).jpg)
+![Gambar 10](IMG5_(3).jpg)
 dengan menuliskan komentar dapat membantu program untuk mengingat hal hal penting dan dapat dituliskan tanpa terbaca di browser.
 
 
@@ -174,21 +174,21 @@ untuk html kita dapat menambahkan foto video serta audio dalam vscode untuk dima
 ## menambah foto
 untuk menambah foto pada teks editor vscode kita ==menggunakan tag `<img>`== dengan ==dibantu atribut "*src*"== lalu masukkan lah link foto yang ingin dimasukkan. lalu untuk mengatur *tinggi* dan *lebar* dengan ==atribut tinggi : "*height*" dan lebar : "*weight*"==.
 Kode Program :
-![Gambar 11](Aset/IMG5/IMG5_(4).jpg)
+![Gambar 11](IMG5_(4).jpg)
 Hasil Program :
-![Gambar 12](Aset/IMG5/IMG5_(5).jpg)
+![Gambar 12](IMG5_(5).jpg)
 
 ## menambah video
 untuk menambah video dalam teks editor *vscode* kita menggunakan tag `<video>` dengan bantuan atribut ==*src=" "*== dan di isi dengan nilai atribut yaitu *nama videonya* contoh nya ialah seperti berikut.
 
 **membuat aset untuk video :**
-![Gambar 13](Aset/IMG5/IMG5_(6).jpg)
+![Gambar 13](IMG5_(6).jpg)
 
 **Kode Program :**
-![Gambar 14](Aset/IMG5/IMG5_(7).jpg)
+![Gambar 14](IMG5_(7).jpg)
 
 **Hasil Program :** 
-![Gambar 15](Aset/IMG5/IMG5_(8).jpg)
+![Gambar 15](IMG5_(8).jpg)
 
 **Penjelasan :**
 jadi pertama kita buat folder untuk aset *video* (opsional) lalu kita ketikkan tag serta atribut dan nilai atribut yaitu `src="*tempat dan nama video*"` dan kita dapat menambahkan atribut seperti :
@@ -201,10 +201,10 @@ jadi pertama kita buat folder untuk aset *video* (opsional) lalu kita ketikkan t
 dan yang terakhir untuk menambahkan audio pada *vscode* kita dapat menggunakan tag `<audio>` dengan atribut ==*src*== dan di isi dengan nilai atribut (tempat dan nama dokumennya) langkah langkah nya ialah seperti berikut :
 
 **kode program :**
-![Gambar 16](Aset/IMG5/IMG5_(9).jpg)
+![Gambar 16](IMG5_(9).jpg)
 
 **hasil program :**
-![Gambar 17](Aset/IMG5/IMG5_(10).jpg)
+![Gambar 17](IMG5_(10).jpg)
 
 
 
@@ -216,10 +216,10 @@ dan yang terakhir untuk menambahkan audio pada *vscode* kita dapat menggunakan t
 Iframe ialah saran untuk memasukkan tampilan atu layout sebuah website ke website buatan kita atau simpelnya ==website dalam website==. Dan untuk tag ialah `<iframe>` dan menggunakan atribut *src* dan di isi dengan **link dari website tujuan** contoh nya ialah seperti berikut :
 
 **kode program** :
-![Gambar 18](Aset/IMG6/IMG6_(1).jpg)
+![Gambar 18](IMG6_(1).jpg)
 
 **hasil program :**
-![Gambar 19](Aset/IMG6/IMG6_(2).jpg)
+![Gambar 19](IMG6_(2).jpg)
 
 **penjelasan :** 
 Simpelnya iframe berfungsi untuk menampilkan website lain dalam website kita da kita dapat mengatur ukuran tinggi serta lebarnya lalu ada beberapa website yang butuh akses untuk melakukan iframe dengan website nya.
@@ -260,7 +260,7 @@ Dalam **HTML** kita dapat membantu "table" dengan menggunakan tah `<table>` deng
 ```
 
 ## Hasil program 
-![Gambar 20](Aset/IMG6/IMG6_(3).jpg)
+![Gambar 20](IMG6_(3).jpg)
 
 
 ## **Tag `<table>`**
@@ -316,7 +316,7 @@ Elemen `<input>` adalah elemen form yang paling penting. Elemen `<input>`dapat d
 <input type="text"><br><br>
 ```
    Hasil Program :
-   ![Gambar 18](Aset/IMG7/IMG7_(1).jpg)
+   ![Gambar 18](IMG7_(1).jpg)
 
 2. password digunakan untuk mengambil isian berupa kata sandi atau sesuatu yang bersifat rahasia. Tipe ini akan mengubah semua karakter yang diketikkan ke dalam karakter bulat. Contoh ialah seperti berikut :
  ```html
@@ -324,7 +324,7 @@ Elemen `<input>` adalah elemen form yang paling penting. Elemen `<input>`dapat d
 <input type="password>">
 ```
    Hasil Program :
-   ![Gambar 22](Aset/IMG7/IMG7_(2).jpg)
+   ![Gambar 22](IMG7_(2).jpg)
 
 3. radio digunakan sebagai kolom isian bertipe pilihan yang menawarkan beberapa opsi kepada user namun tetapi hanya satu opsi saja yang boleh dipilih. Contohnya seperti jenis kelamin atau agama. Contohnya ialah seperti berikut :
 ```html
@@ -337,7 +337,7 @@ Elemen `<input>` adalah elemen form yang paling penting. Elemen `<input>`dapat d
 ```
     
    Hasil Program :
-   ![Gambar 24](Aset/IMG7/IMG7_(3).jpg)
+   ![Gambar 24](IMG7_(3).jpg)
     
 
 Perlu diperhatikan bahwa untuk penggunaan tipe radio yang berkategori set pilihan yang sama mengharuskan nilai name -nya juga sama.
@@ -361,7 +361,7 @@ Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk me
     <label>Malam</label><br><br>
 ```
   Hasil Program :
-  ![Gambar 25](Aset/IMG7/IMG7_(4).jpg)
+  ![Gambar 25](IMG7_(4).jpg)
   
 
 ## Label
@@ -372,11 +372,11 @@ Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk me
 - Elemen `<select>` berguna dalam mendefinisikan sebuah tombol ==dropdown== yang dimana user dapat memilih salah satu dari banyak pilihan. 
 - `<aside>`Elemen `<select>` nantinya berperan sebagai kontainer atau pembungkus dari elemen `<option>` yang berperan sebagai daftar pilihan atau opsi.`</aside>`
 - Elemen `<select>` hampir mirip fungsinya dengan `<input type=”radio">` akan tetapi baiknya elemen `<select>` digunakan untuk memilih satu pilihan yang terdapat banyak opsi di dalamnya, sedangkan `<input type=”radio">` lebih baiknya untuk digunakan jika  user diarahkan memilih hanya satu pilihan yang opsi pilihannya tidak terlalu banyak. Contoh penggunaan elemen ini seperti memasukkan pilihan berupa asal daerah atau yang semisalnya.Penting untuk diketahui  bahwasanya opsi yang aktif secara default adalah adalah opsi yang pertama. Akan tetapi, kita bisa mengatur opsi mana yang aktif secara default dengan menambahkan atribut selected pada suatu `<option>` yang ingin dijadikan sebagai opsi default. Contohnya ialah seperti berikut :
-  ![Gambar 26](Aset/IMG7/IMG7_(5).jpg)
+  ![Gambar 26](IMG7_(5).jpg)
 
 ## **Text Area**
 - Elemen `<textarea>` berguna untuk mengambil inputan user berupa teks yang dapat memuat *lebih dari satu baris*. Jika dibandingkan dengan elemen `<input>` teks biasa, elemen `<textarea>` memiliki ukuran tinggi yang lebih besar. Element textarea bisa diisi lebih dari satu baris dengan menekan enter. Atribut yang dapat digunakan untuk mengatur kuran dari textarea yaitu rows untuk jumlah baris, sedangkan atribut cols untuk lebarnya.
-![Gambar 27](Aset/IMG7/IMG7_(6).png)
+![Gambar 27](IMG7_(6).png)
 
 ## **Button**
 - Elemen `<button>` yang berada di dalam sebuah form akan otomatis dianggap sama fungsinya seperti `<input type="submit">`. Jika ingin membuat tombol biasa yang tidak men-submit `<form>` dapat dilakukan dengan menambahkan atribut type="button".
@@ -390,57 +390,10 @@ Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk me
 
 ```
 dan hasilnya akan seperti dibawah ini :
-![Gambar 28](Aset/IMG7/IMG7_(7).png)
+![Gambar 28](IMG7_(7).png)
 
 
 
 
 
-
-##### Pertemuan 8
-
-# Div & Span
-DIV adalah elemen tingkat blok yang digunakan untuk membuat bagian, sedangkan SPAN adalah elemen sebaris untuk menata teks atau elemen sebaris lainnya
-## Div 
-Div ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan mengambil satu block/baris.
-
-## span
-Div ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan mengambil satu block/baris.
-
-
-# Percobaan II
-
-## Kode CSS
-```css
-<style>
-	button {
-            width:150px;
-            height: 50px;
-
-            font-weight: bold;
-            text-transform: uppercase;
-            border-radius: 5px;
-    }
-</style>
-```
-
-### font-weight
-Untuk style *font-weight* 
-
-#### before
-![Gambar 29](Aset/IMG8/IMG8_(1).png)
-#### after
-![Gambar 30](Aset/IMG8/IMG8_(2).png)
-
-### text-transform
-#### before
-![Gambar 31](Aset/IMG8/IMG8_(1).png)
-#### after
-![Gambar 32](Aset/IMG8/IMG8_(3).png)
-
-### border-radius
-#### before
-![Gambar 33](Aset/IMG8/IMG8_(1).png)
-#### after
-![Gambar 34](Aset/IMG8/IMG8_(4).png)
 
