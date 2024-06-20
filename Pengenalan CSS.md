@@ -1,35 +1,40 @@
 ##### Pertemuan 8
 # Anatomi CSS
-Anatomi css terdiri dari *Selector, Property* dan *Property Value* untuk contoh lebih jelasnya kita akan masuk kedalam contoh dibawah dimana akan dijelaskan contoh dari ketiga anatomi css.
-    
-**contoh program :**
+Anatomi css terdiri dari *Selector, Property* dan *Property Value* untuk contoh lebih jelasnya kita akan masuk kedalam contoh dibawah dimana akan dijelaskan contoh dari ketiga anatomi css.  
+**Contoh Program :**
 ```css
 p {
 	color: red;
 }
 ```
-**hasil program :** 
- ![Gambar](Aset/IMG8/IMG8_1.png)
-> [!info]- Penjelasan
->>Jadi pada contoh program di atas *P* berperan sebagai **selector** lalu *color* berperean sebagai **Property** dan *Red* berperan sebagai **Property Value**.
+**Hasil Program :** 
+ ![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_1.png)
+**Penjelasan :**
+Jadi pada contoh program di atas *P* berperan sebagai **selector** lalu *color* berperean sebagai **Property** dan *Red* berperan sebagai **Property Value**.
 
 
 # Div & Span
 DIV adalah elemen tingkat blok yang digunakan untuk membuat bagian, sedangkan SPAN adalah elemen sebaris untuk menata teks atau elemen sebaris lainnya
 
-> [!Info]- Div 
->>Div ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan 
->>mengambil satu block/baris. 
+**Div :** 
+Div ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan 
+mengambil satu block/baris. 
  
-> [!info]- span
->>Span ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan mengambil sesuai yang diketikkan saja.
-### Perbedaan div & span
-Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya seperti yang sudah dijelaskan di atas yaitu div mengambil cakupan satu baris sedangkat span hanya mengambil cakupan sesuai yang diketikkan saja, untuk contohnya akan seperti dibawah ini :
-![Gambar](Aset/IMG8/IMG8_2.png)
+**Span :**
+Span ialah tag yang digunakan untuk mengetikkan sesuatu namun cakupan areanya akan mengambil sesuai yang diketikkan saja.
 
+### Perbedaan Div & Span
+Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya seperti yang sudah dijelaskan di atas yaitu div mengambil cakupan satu baris sedangkat span hanya mengambil cakupan sesuai yang diketikkan saja, untuk contohnya akan seperti dibawah ini.
+**Contoh Program :**
+```html
+<div>Ini adalah div</div>
+<span>Ini adalah span</span>
+```
+**Hasil Program :**
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_2.png)
 
-# Tantangan I
-## Percobaan I
+## Tantangan I
+### Percobaan I
 **Kode CSS :**
 ```css
 <style>
@@ -41,14 +46,13 @@ Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya sepert
       <p>Welcome CSS</p>
 ```
 **Hasil program :**
-![Gambar](Aset/IMG8/IMG8_3.png)
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_3.png)
+**Penjelasan :** 
+ disini isi dari tag p berubah menjadi berwarnah merah di akibatkan oleh style css tepatnya property color yang dibarengi dengan value red sehinggan hasil dari tag p yang telah dipanggil oleh style css berubah menjadi warna merah.
+  
 
-> [!info]- Penjelasan 
->> disini isi dari tag p berubah menjadi berwarnah merah di akibatkan oleh style css tepatnya property color yang dibarengi dengan value red sehinggan hasil dari tag p yang telah dipanggil oleh style css berubah menjadi warna merah.
->>  
 
-
-# Percobaan II
+### Percobaan II
 **Kode CSS :
 ```css
 <style>
@@ -62,20 +66,18 @@ Perbedaanya terletak di cakupan area/area box yang di ambilnya contoh nya sepert
     }
 </style>
 ```
-
-
 ### Font-weight
 **Before :
-![Gambar](Aset/IMG8/IMG8_4.png)
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
 After :**
-![Gambar](Aset/IMG8/IMG8_5.png)
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_5.png)
 
 > [!info]- Penjelasan *font weight*
 >> untuk font-weight ini akan merubah ketebalan teks dan contohnya disini kita mengguanakan *property value* yang bold sehingga merubah teksnya menjadi tebal 
 
 ### Text-transform
 **Before :
-![Gambar](Aset/IMG8/IMG8_4.png)
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
 After :**
 ![Gambar](Aset/IMG8/IMG8_6.png)
 
@@ -84,7 +86,7 @@ After :**
 
 ### Border-radius
 **Before :
-![Gambar](Aset/IMG8/IMG8_4.png)
+![Gambar](1.%20Pemrograman%20Webs/Aset/IMG8/IMG8_4.png)
 After :**
 ![Gambar](Aset/IMG8/IMG8_7.png)
 
@@ -135,25 +137,27 @@ Untuk Elemen selector kita melakukan pemanggilan di dalam dokumen html dengan me
 	}
 </style>
 ```
+
 ## Class selector
 Untuk Class selector kita memanggil di dokumen khusus *css* dan menambahkan atribut class pada tag yang ingin di ubah lalu dipanggil menggunakan "." sebelum nama classnya, untuk contoh programnya akan seperti berikut.
-**Halaman html :**
+**Halaman Html :**
 ```html
 <span class="nama_class">Ini contoh class selector</span>
 ```
-**Halaman css :**
+**Halaman Css :**
 ```css
 .nama_class {
 	color: red;
 }
 ```
+
 ## Id selector
 Untuk Id selector lumayan mirip dengan class selector yaitu dengan menambahkan id di tag yang ingin di ubah lalu setelah itu di panggil menggunakan tagar sebelum nama id nya, untuk contoh programnya akan seperti berikut.
-**halaman html :**
+**halaman Html :**
 ```html
 <div id="nama_id">Ini contoh id selector<div>
 ```
-**halaman css :**
+**halaman Css :**
 ```css
 #nama_id {
 	color: red;
@@ -168,73 +172,80 @@ property dasar yang akan kita pelajari ialah mulai dari text font dan background
 Untuk  property text kita akan mempelajari beberapa value dan untuk lebih jelasnya kita akan mempelarinya di bawah ini.
 
 #### Text-Align
-text align ini mengatur rata kiri kanan dari sebuah teks yang akan di ketik dan seperti value yang saya gunakan ialah untuk mengatur tulisannya menjadi tengah dengan value *"center"* dan contoh programnya ialah seperti berikut :
+text align ini mengatur rata kiri kanan dari sebuah teks yang akan di ketik dan seperti value yang saya gunakan ialah untuk mengatur tulisannya menjadi tengah dengan value *"center"* dan contoh programnya ialah seperti berikut.
+**Contoh Program :**
 ```css
 .text_align {
     text-align: center;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_8.png)
 
 #### Text-Decoration
-text-decoration berfungsi untuk memberi dekorasi pada teks yang akan ditulis sesuai dengan value yang akan digunakan seperti contoh yang saya ambil yaitu *"underline"* yang berfungsi untuk membuat garis dibawah tulisan, untuk contohnya akan seperti berikut :
+text-decoration berfungsi untuk memberi dekorasi pada teks yang akan ditulis sesuai dengan value yang akan digunakan seperti contoh yang saya ambil yaitu *"underline"* yang berfungsi untuk membuat garis dibawah tulisan, untuk contohnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .text_decoration {
     text-decoration:underline;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_9.png)
 
 #### Text-Trasformation
-text-transformation ini berfungsi untuk mengtransformasikan teks yang telah dibuat seperti contoh yang saya gunakan ialah membuat teks menjadi kapital menggunakan value *"uppercase"* untuk contohnya akan seperti dibawah ini :
+text-transformation ini berfungsi untuk mengtransformasikan teks yang telah dibuat seperti contoh yang saya gunakan ialah membuat teks menjadi kapital menggunakan value *"uppercase"* untuk contohnya akan seperti dibawah ini.
+**Contoh Program :**
 ```css
 .text_transformation {
     text-transform:uppercase;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_10.png)
 
 #### Teks-Indent
-teks-indent ini berfungsi untuk memberi jarak di awal penulisan atau simpelnya seperti mengetik "tab" pada keayboard kita dan untuk valuenya dapat di isi sesuai dengan keinginan kita. Contohnya akan seperti berikut :
+teks-indent ini berfungsi untuk memberi jarak di awal penulisan atau simpelnya seperti mengetik "tab" pada keayboard kita dan untuk valuenya dapat di isi sesuai dengan keinginan kita. Contohnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .text_indent {
     text-indent: 20px;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_11.png)
 
 #### Letter-Spacing
-lalu untuk latter-spacing ialah untuk memberi jarak di antara setiap huruf yang telah diketikkan dan untuk valuenya dapat ditentukan sesuai keignginan kita, untuk lebih jelasnya berikut contoh program dan asilnya :
+lalu untuk latter-spacing ialah untuk memberi jarak di antara setiap huruf yang telah diketikkan dan untuk valuenya dapat ditentukan sesuai keignginan kita, untuk lebih jelasnya berikut contoh program dan hasilnya.
+**Contoh Program :**
 ```css
 .letter_spacing {
     letter-spacing: 6px;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_12.png)
 
 #### Line-Height
-untuk line-height ialah untuk memberi jarak pada suatu teks dengan teks di atasnya dan valuenya dapat di atur sesuai dengan keinginan, lalu untuk contoh program serta hasilnya akan seperti dibawah ini :
+untuk line-height ialah untuk memberi jarak pada suatu teks dengan teks di atasnya dan valuenya dapat di atur sesuai dengan keinginan, lalu untuk contoh program serta hasilnya akan seperti dibawah ini.
+**Contoh Program :**
 ```css
 .line_height {
     line-height: 100px;
 }
 ```
-dan hasilnya akan seperti dibawah ini :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_13.png)
 
 #### Word-Spacing
-dan terakhir ialah word-spacing fungsinya untuk memberi jarak di antara setiap kata dan valuenya dapat di atur sesuai keinginan kita, lalu untuk contoh program dan hasilnya akan seperti berikut :
+dan terakhir ialah word-spacing fungsinya untuk memberi jarak di antara setiap kata dan valuenya dapat di atur sesuai keinginan kita, lalu untuk contoh program dan hasilnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .word_spacing {
     word-spacing: 10px;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_14.png)
 
 
@@ -242,17 +253,19 @@ dan hasilnya akan seperti berikut :
 Untuk  property background kita akan mempelajari beberapa value dan untuk lebih jelasnya kita akan mempelarinya di bawah ini.
 
 #### Background-Image
-untuk background image ini kita akan dapat menampilkan background dengan image sesuai dengan yang ingin kita pilih/dari file kita, untuk contoh programnya akan seperti berikut :
+untuk background image ini kita akan dapat menampilkan background dengan image sesuai dengan yang ingin kita pilih/dari file kita, untuk contoh programnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .background-image {
     background-image:url(./aset/backgroundd.JPG)
 }
 ```
-dan hasilnya akan speeri berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_15.png)
 
 #### Background-Size
-lalu untuk background size kita mengatur size/ukuran dari background yang kita gunakan dan valuenya dapat kita atur sesuai dengan keinginan kita. untuk contoh penggunananya akan seperti berikut ini :
+lalu untuk background size kita mengatur size/ukuran dari background yang kita gunakan dan valuenya dapat kita atur sesuai dengan keinginan kita. untuk contoh penggunananya akan seperti berikut ini.
+**Contoh Program :**
 ```css
 .background {
     background-image:url(./aset/backgroundd.JPG);
@@ -262,11 +275,12 @@ lalu untuk background size kita mengatur size/ukuran dari background yang kita g
     background-size: 50%;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_16.png)
 
 #### Background-Repeat
-untuk background-repeat ini mengulang gambar dalam ukurannya dan untuk penggunaannya akan seperti dibawah ini:
+untuk background-repeat ini mengulang gambar dalam ukurannya dan untuk penggunaannya akan seperti dibawah ini.
+**Contoh Program :**
 ```css
 .background {
     background-image:url(./aset/backgroundd.JPG);
@@ -277,12 +291,13 @@ untuk background-repeat ini mengulang gambar dalam ukurannya dan untuk penggunaa
     background-repeat: repeat;
 }
 ```
-dan hasilnya akan seperti dibawah ini :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_17.png)
 
 
 #### Background-Attachment
-background-attachment ini mengatur ketetapan image yang di gunakan contohnya ialah seperti penggunaan value "fixed" yang membuat gambar tetap berada di posisinya walau di scroll, untuk contoh penggunaanya akan seperti berikut :
+background-attachment ini mengatur ketetapan image yang di gunakan contohnya ialah seperti penggunaan value "fixed" yang membuat gambar tetap berada di posisinya walau di scroll, untuk contoh penggunaanya akan seperti berikut.
+**Contoh Program :**
 ```css
 .background {
     background-image:url(./aset/backgroundd.JPG);
@@ -293,12 +308,13 @@ background-attachment ini mengatur ketetapan image yang di gunakan contohnya ial
     background-attachment: fixed;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_18.png)
 
 
 #### Background-Postion
-dan yang terakhir ialah background-postion dan fungsinya ialah untuk mengatur posisi dari background yang digunakan, untuk contoh penggunaanya aka seperti dibawah ini :
+dan yang terakhir ialah background-postion dan fungsinya ialah untuk mengatur posisi dari background yang digunakan, untuk contoh penggunaanya aka seperti dibawah ini.
+**Contoh Program :**
 ```css
 .background {
     background-image:url(./aset/backgroundd.JPG);
@@ -310,7 +326,7 @@ dan yang terakhir ialah background-postion dan fungsinya ialah untuk mengatur po
     background-position:10% ,50% ;
 }
 ```
-dan hasilnya akan seperti dibawah ini :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_19.png)
 
 
@@ -319,29 +335,32 @@ Untuk  property font kita akan mempelajari beberapa value dan untuk lebih jelasn
 
 
 #### Font-Size
-untuk font-size berfungsi untuk mengatur ukuran dari teks yang di ketikkan dan valuenya dapat di atur sesuai dengan keinginan kita, untuk contoh program dan hasilnya akan seperti dibawah ini :
+untuk font-size berfungsi untuk mengatur ukuran dari teks yang di ketikkan dan valuenya dapat di atur sesuai dengan keinginan kita, untuk contoh program dan hasilnya akan seperti dibawah ini.
+**Contoh Program :**
 ```css
 .teks {
     font-size: 10px;
 }
 ```
-dan hasilnya akan seperti dibawah ini :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_20.png)
 
 #### Font-Style
-untuk font-style berfungsi untuk mengatur gaya dari teks yang diketikkan untuk value bisa dipilih sesuai dengan yang kita inginkan, contohnya saya disini saya menggunakan *italic* untuk program dan hasilnya akan seperti dibawah ini :
+untuk font-style berfungsi untuk mengatur gaya dari teks yang diketikkan untuk value bisa dipilih sesuai dengan yang kita inginkan, contohnya saya disini saya menggunakan *italic* untuk program dan hasilnya akan seperti dibawah ini.
+**Contoh Program :**
 ```css
 .teks {
     font-size: 10px;
     font-style:italic;
 }
 ```
-dan hasilnya akan seperti dibawah ini :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_21.png)
 
 
 #### Font-Weight
-untuk font-weight adalah untuk mengatur ketebalan dari teks yang kita ketikkan dan untuk valuenya dapat kita pilih sesuai dengan keinginan kita dan disini saya menggunakan value *bold* untuk contoh programnya akan seperti berikut :
+untuk font-weight adalah untuk mengatur ketebalan dari teks yang kita ketikkan dan untuk valuenya dapat kita pilih sesuai dengan keinginan kita dan disini saya menggunakan value *bold* untuk contoh programnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .teks {
     font-size: 10px;
@@ -349,12 +368,13 @@ untuk font-weight adalah untuk mengatur ketebalan dari teks yang kita ketikkan d
     font-weight:bold;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_22.png)
 
 
 #### Font-Family
-dan yang terakhir ialah font-family ialah untuk mengatur jenis font yang diinginkan seperti contoh yang saya gunakan ialah value *arial* dan contoh program serta hasilnya akan seperti berikut :
+dan yang terakhir ialah font-family ialah untuk mengatur jenis font yang diinginkan seperti contoh yang saya gunakan ialah value *arial* dan contoh program serta hasilnya akan seperti berikut.
+**Contoh Program :**
 ```css
 .teks {
     font-size: 10px;
@@ -363,16 +383,18 @@ dan yang terakhir ialah font-family ialah untuk mengatur jenis font yang diingin
     font-family:arial;
 }
 ```
-dan hasilnya akan seperti berikut :
+**Hasil Program :**
 ![Gambar](Aset/IMG8/IMG8_23.png)
 
 
 
 # Box model
-Untuk box model kita akan mempelajari mengenai border, padding, margin dan hal hal lainnya mengenai permodelan box. untuk lebih jelasnya kita akan menggunakan contoh di bawah :
+Untuk box model kita akan mempelajari mengenai border, padding, margin dan hal hal lainnya mengenai permodelan box. untuk lebih jelasnya kita akan menggunakan contoh di bawah.
+**Hasil Program :**
 ![Gambar](Aset/IMG9/IMG9_1.png)
 
-untuk membuat button dengan model di atas kita akan menggunakan beberapa style disini saya akan menjelaskan mengenai border dan padding pada button ini namun saya tidak akan menjelaskan mengenai style lainnya dikarenakan telah di jelaskan di materi sebelumnya, berikut ialah style style yang digunakan :
+untuk membuat button dengan model di atas kita akan menggunakan beberapa style disini saya akan menjelaskan mengenai border dan padding pada button ini namun saya tidak akan menjelaskan mengenai style lainnya dikarenakan telah di jelaskan di materi sebelumnya, berikut ialah style style yang digunakan.
+**Contoh Program :**
 ```css
 .button {
     width: 200px;
@@ -393,8 +415,8 @@ untuk membuat button dengan model di atas kita akan menggunakan beberapa style d
 }
 ```
 
-## Tantangan II
-**Kode Program Html :**
+# Tantangan II
+**Contoh Program Html :**
 ```html
 <!DOCTYPE html>
 <html>
@@ -414,7 +436,7 @@ untuk membuat button dengan model di atas kita akan menggunakan beberapa style d
 </body>
 </html>
 ```
-**Kode Program CSS :**
+**Contoh Program Css :**
 ```css
 .background {
     background-color: purple;
@@ -465,7 +487,7 @@ untuk membuat button dengan model di atas kita akan menggunakan beberapa style d
 
 }
 ```
-**Hasilnya akan seperti berikut :**
+**Hasil Program :**
 ![Gambar](Aset/IMG9/IMG9_3.png)
 
 
@@ -517,7 +539,7 @@ Margin-bottom ini mengatur jarak antar objek satu dengan objek lainnya lebih tep
 - `color: white;`: Properti ini menetapkan warna teks pada tombol menjadi putih ketika tombol di-hover.
 - `height: 100px;`: Properti yang digunakan untuk membuat  tinggi (height) tombol menjadi 100 piksel ketika tombol di-hover.
 - `width: 100px;`: Properti yang digunakan untuk membuat lebar (width) tombol menjadi 100 piksel ketika tombol di-hover.
-**Kode program :**
+**Contoh Program :**
 ```
 button:hover{
   background-color:red;
@@ -528,7 +550,7 @@ button:hover{
 
 }
 ```
-**Hasil :**
+**Hasil Program :**
 ![Gambar](Aset/IMG10/IMG10_1.png)
 #### Kesimpulan
 property dalam style button yang diberi hover akan mengubah button pada saat kursor di arahkan ke arah objek (Hover) sesuai degan yang di isikan di `button:hover` seperti yang telah nampak di atas. 
@@ -536,15 +558,16 @@ property dalam style button yang diberi hover akan mengubah button pada saat kur
 ## Active
 `button:active`: adalah pseudo-class selector yang menargetkan tombol (`button`) ketika tombol tersebut sedang dalam keadaan "active", atau tombol sedang ditekan. 
 `color: yellow;`: Properti memberikan warna kuning pada teks ketika tombol sedang active atau tombol sedang ditekan. 
-**Kode program :**
+**Contoh Program :**
 ```
 button:active{
   color: yellow ;
 }
 ```
-**Hasil :**
+**Hasil Program :**
 ![Gambar](Aset/IMG10/IMG10_2.png)
-#### Kesimpulan
+
+**Kesimpulan :**
 Teks "klik broo" akan berganti warna menjadi kuning jika ditekan sesuai dengan program di atas. 
 
 # Transition 
@@ -561,8 +584,9 @@ button:hover{
 }
 ```
 
-## Tantangan III
-### Penjelasan HTML
+# Tantangan III
+
+**Penjelasan HTML :**
 - Tag `<DOCTYPE html>` memberitahu web bahwa dokumen HTML adalah versi 5
 - Tag pembuka `<html>` menandai awal sebuah dokumen HTML sampai dengan tag penutup `</html>`
 - Tag pembuka `<head>` berisi informasi tentang halaman HTML sampai dengan tag penutup `</head>` ,biasanya dalam tag head terdapat tag `<title>` untuk memberikan informasi judul halaman HTML
@@ -578,7 +602,8 @@ button:hover{
 - `<button class="button">Klik disini</button>`: Tombol dengan teks "Klik disini" dan kelas "button".
 - `<div class="item-box">`: Kontainer untuk gambar.
 - `<img src="aset/nero.jpg.png">`: Gambar "F.png" dari direktori "camera".
-## Penjelasan CSS
+
+**Penjelasan CSS :**
 - `body`: Mengatur latar belakang seluruh halaman menjadi warna ungu (purple).
 - `.main-container`: Memberikan latar belakang warna ungu (purple) pada elemen dengan kelas "main-container". Ini mungkin digunakan sebagai wadah utama untuk konten.
 - `.box-item-1 dan .box-item-2`: Mengatur tampilan teks pada elemen-elemen dengan kelas "box-item-1" dan "box-item-2". Ini termasuk mengatur ukuran font menjadi 50px, warna putih, dan memberikan jarak atas sejauh 10px.
@@ -586,7 +611,7 @@ button:hover{
 - `button:active`: Memberikan efek transformasi rotasi sebesar 45 derajat pada tombol ketika tombol sedang aktif (ditekan).
 - `img`: Mengatur tampilan gambar dengan lebar dan tinggi masing-masing 250px, dengan sudut melingkar sebesar 200px, serta menetapkan margin kiri sejauh 400px dan margin atas sejauh -400px. Hal ini dapat mempengaruhi posisi dan tata letak gambar dalam halaman.
 
-### Kode Program
+**Contoh Program Html:**
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -619,7 +644,7 @@ button:hover{
 </html>
 
 ```
-
+**Contoh Program  Css:**
 ```CSS
 body{
   background-color:purple;
@@ -666,9 +691,9 @@ img{
 }
 
 ```
-**Hasil Before :**
+**Hasil Program Before :**
 ![Gambar](Aset/IMG10/IMG10_4.png)
-**Hasil After :**
+**Hasil Program After :**
 ![Gambar](Aset/IMG10/IMG10_5.png)
 
 
@@ -681,24 +706,25 @@ img{
 - `transform: skew(25deg,5deg);`= Membengkokkan elemen sebesar 25 derajat secara horizontal (ke kanan) dan 5 derajat secara vertikal (ke atas).
 - `transform: translate(50px,52px);`= Menggeser elemen sebesar 50 piksel ke kanan dan 52 piksel ke bawah.
 - `transform: matrix(0.7,-0.5,0.5,0.4,0.5,0.7);`= Menggambarkan transformasi menggunakan matriks 2D den
-**Kode Program :**
+**Contoh Program :**
 ```
 button:active{
   
   transform:matrix(0.7,-0.5,0.5,0.4,0.5,0.7);
   }
 ```
-**Hasil :**
+**Hasil Program :**
 ![Gambar](Aset/IMG10/IMG10_3.png)
 
-#### Kesimpulan
+**Penjelasana Program :**
 Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 
 # Flexbox 
 ## Flex Container
 #### Display Flex
 `display: flex`, kita dapat dengan mudah mengatur tata letak elemen-elemen di dalamnya dengan properti-properti seperti `flex-direction`, `justify-content`, `align-items`, dan lain-lain.
-##### Kesimpulan
+
+**Kesimpulan :**
 `display: flex`, kita dapat dengan mudah mengatur tata letak elemen-elemen di dalamnya menggunakan properti-properti seperti `flex-direction`, `justify-content`, `align-items`, dan properti lainnya yang terkait dengan model tata letak flexbox.
 
 
@@ -707,13 +733,14 @@ Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda
 - `flex-direction: column-reverse;`: Mengatur tata letak dari flex container menjadi vertikal terbalik, sehingga flex items diatur dari bawah ke atas.
 - `flex-direction: row;`: Mengatur tata letak dari flex container menjadi horizontal, sehingga flex items diatur dari kiri ke kanan.
 - `flex-direction: row-reverse;`: Mengatur tata letak dari flex container menjadi horizontal terbalik, sehingga flex items diatur dari kanan ke kiri.
-**Kode Program :**
+**Contoh Program :**
 ```css
 .box-container{
   flex-direction: column;  
 }
 ```
-##### Kesimpulan
+
+**Kesimpulan :**
 Setiap properti flex-direction mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`column` untuk tata letak vertikal dari atas ke bawah.
 `column-reverse` untuk tata letak vertikal terbalik dari bawah ke atas. `row` untuk tata letak horizontal dari kiri ke kanan.`row-reverse` untuk tata letak horizontal terbalik dari kanan ke kiri.
@@ -724,14 +751,14 @@ Contoh`column` untuk tata letak vertikal dari atas ke bawah.
 - `align-items: flex-end;`: Flex items akan diatur pada akhir sumbu silang dari flex container.
 - `align-items: baseline;`: Flex items akan diatur sedemikian rupa sehingga garis dasar dari teks pada masing-masing item berada pada level yang sama.
 - `align-items: stretch;`: Flex items akan diperpanjang untuk mencapai tinggi maksimal flex container, mengisi ruang kosong di sepanjang sumbu silang.
-**Kode Program :**
+**Contoh Program :**
 ```css
 .box-container{
   align-items:center ;  
 }
 ```
 
-##### Kesimpulan
+**Kesimpulan :**
 Setiap properti align-items mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`center` untuk menempatkan flex items di tengah-tengah sumbu silang.`flex-start` untuk menempatkan flex items di awal sumbu silang.`flex-end` untuk menempatkan flex items di akhir sumbu silang.`baseline` untuk menempatkan flex items sehingga garis dasar teks masing-masing item berada pada level yang sama.`stretch` untuk memperpanjang flex items sehingga mencapai tinggi maksimal flex container, mengisi ruang kosong di sepanjang sumbu silang.
 
@@ -747,13 +774,14 @@ Contoh`center` untuk menempatkan flex items di tengah-tengah sumbu silang.`flex-
   justify-content: center ;
 }
 ```
-##### Kesimpulan
+
+**Kesimpulan :**
 Setiap properti justify-Content mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`flex-end` untuk menempatkan flex items di akhir (akhir) sumbu utama.`center` untuk menempatkan flex items di tengah-tengah sumbu utama.`space-around` untuk mendistribusikan flex items secara merata di sekitar sumbu utama dengan ruang yang sama di antara mereka.`space-between` untuk mendistribusikan flex items secara merata di sepanjang sumbu utama dengan ruang yang sama di antara flex items pertama dan terakhir, tetapi tidak ada ruang di antara flex items yang berdekatan.
 
 
-## Tantangan IV
-### Penjelasan HTML
+# Tantangan IV
+**Penjelasan HTML :**
 - Tag `<DOCTYPE html>` memberitahu web bahwa dokumen HTML adalah versi 5
 - Tag pembuka `<html>` menandai awal sebuah dokumen HTML sampai dengan tag penutup `</html>`
 - Tag pembuka `<head>` berisi informasi tentang halaman HTML sampai dengan tag penutup `</head>` ,biasanya dalam tag head terdapat tag `<title>` untuk memberikan informasi judul halaman HTML
@@ -769,13 +797,16 @@ Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`fle
 - `<button class="button">Klik disini</button>`: Tombol dengan teks "Klik disini" dan kelas "button".
 - `<div class="item-box">`: Kontainer untuk gambar.
 - `<img src="aset/nero.jpg">`: Gambar "nero.jpg" dari direktori "aset".
-## Penjelasan CSS
+
+**Penjelasan CSS :**
 - `body`: Mengatur latar belakang seluruh halaman menjadi warna ungu (purple).
 - `.main-container`: Memberikan latar belakang warna ungu (purple) pada elemen dengan kelas "main-container". Ini mungkin digunakan sebagai wadah utama untuk konten.
 - `.box-item-1 dan .box-item-2`: Mengatur tampilan teks pada elemen-elemen dengan kelas "box-item-1" dan "box-item-2". Ini termasuk mengatur ukuran font menjadi 50px, warna putih, dan memberikan jarak atas sejauh 10px.
 - `img`: Mengatur tampilan gambar dengan lebar dan tinggi masing-masing 250px, dengan sudut melingkar sebesar 200px, serta menetapkan margin kiri sejauh 400px dan margin atas sejauh -400px. Hal ini dapat mempengaruhi posisi dan tata letak gambar dalam halaman.
+- `display:flex;` : membuat bentukan web menjadi flexsibel
+- `flex-direction:column` : membuat tampilan container menjadi seperti kolumn (kebawah).
 
-**Kode Program Html:**
+**Contoh Program Html :**
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -805,10 +836,12 @@ Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`fle
 </html>
 
 ```
-**Kode Program CSS :**
+**Contoh Program Css :**
 ```CSS
 	body{
         background-color:purple;
+        display:flex;
+		flex-direction:column;
       }
       .main-container {
         margin-top: 90px;
@@ -835,17 +868,17 @@ Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`fle
           margin-top: -400px;
       }
 ```
-**Hasil :**
+**Hasil Program :**
 ![Gambar](Aset/IMG10/IMG10_4.png)
 
 # Position
 ## Position Relative
-### Penjelasan
+**Penjelasan :**
 - `background-color: aqua;`: Memberikan warna latar belakang elemen menjadi aqua. 
 - `position: relative;`: Menetapkan posisi elemen relatif terhadap posisi defaultnya. 
 - `top: 20px;`: Menggeser elemen 20 piksel ke bawah dari posisi defaultnya.
 - `left: 30px;`: Menggeser elemen 30 piksel ke kanan dari posisi defaultnya. 
-### Kode Program
+**Contoh Program :**
 ```
 box-1{
   background-color:aqua;
@@ -859,16 +892,16 @@ box-1{
 ![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
 ![Gambar](Aset/IMG11/IMG11_2.png)
-#### Kesimpulan
+
+**Kesimpulan :**
 elemen dengan kelas "box-1" mengatur latar belakang menjadi warna aqua dan menggeser elemen 20 piksel ke bawah dan 30 piksel ke kanan dari posisi defaultnya.
 ## Position Absolute
-### Penjelasan
-
+**Penjelasan :**
 - `background-color: purple;`: Mengatur latar belakang elemen menjadi warna ungu (purple).
 - `position: absolute;`: Menetapkan elemen ke dalam konteks posisi yang dihitung relatif terhadap elemen induk yang memiliki posisi non-static. 
 - `top: 15px;`: . elemen 15 piksel dari atas relatif terhadap posisi elemen induk yang ditetapkan dalam konteks posisi absolut.
 - `left: 10px;`: Menggeser elemen 10 piksel dari kiri relatif terhadap posisi elemen induk yang ditetapkan dalam konteks posisi absolut.
-### Kode Program
+**Contoh Program :**
 ```
 .box-2{
   background-color:purple;
@@ -882,16 +915,17 @@ elemen dengan kelas "box-1" mengatur latar belakang menjadi warna aqua dan mengg
 ![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
 ![Gambar](Aset/IMG11/IMG11_3.png)
-### Kesimpulan
+**Kesimpulan :**
 kelas "box-2" menetapkan latar belakangnya menjadi warna ungu (purple) dan mengatur posisinya secara absolut,dimana elemen digeser 15 piksel dari atas dan 10 piksel dari kiri.
 
 ## Position Fixed
-### Penjelasan
+
+**Penjelasan :**
 - `top: 50px;`: Menggeser elemen 50 piksel ke bawah dari posisi defaultnya.
 - `left: 30px;`: Menggeser elemen 55 piksel ke kanan dari posisi defaultnya. 
 - `background-color: aqua;`: Mengatur latar belakang elemen menjadi warna aqua.
 - `position: fixed;`: Mengatur elemen dalam posisi tetap, yang berarti elemen akan tetap berada pada lokasi yang sama saat kita scroll. 
-### Kode Program
+**Contoh Program :**
 ```
 box-1{
   background-color:aqua;
@@ -905,16 +939,18 @@ box-1{
 ![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
 ![Gambar](Aset/IMG11/IMG11_4.png)
-### Kesimpulan
+
+**Kesimpulan :**
 position: fixed, elemen akan tetap berada pada posisinya yang ditentukan jika discrool.properti top dan left digunakan untuk menentukan jarak elemen dari tepi atas dan kiri. 
 
 ## Position Sticky
-### Penjelasan
+
+**Penjelasan :**
 - `background-color: aqua;`: Mengatur latar belakang elemen menjadi warna aqua.
 - `Position: sticky;`: Mengatur elemen dalam posisi "sticky", yang berarti elemen akan berperilaku seperti posisi relatif sampai mencapai posisi tertentu saat discrool kemudian akan tetap berada di tempat.elemen akan "melekat" pada posisi yang telah ditentukan saat jarak scroll mencapai nilai tertentu.
  - `top: 50px;`: Menggeser elemen sejauh 50 piksel dari atas elemen induk yang memiliki posisi tetap.
 - `left: 55px;`: Menggeser elemen sejauh 55 piksel dari sisi kiri elemen induk yang memiliki posisi tetap.
-### Kode Program
+**Contoh Program :**
 ```
 box-1{
   background-color:aqua;
@@ -928,10 +964,11 @@ box-1{
 ![Gambar](Aset/IMG11/IMG11_1.png)
 **After :**
 ![Gambar](Aset/IMG11/IMG11_5.png)
-### Kesimpulan
+
+**Kesimpulan :**
 `position: sticky`, elemen akan seperti posisi relatif sampai jarak scroll mencapai nilai tertentu. elemen akan tetap berada pada posisi yang telah ditentukan saat jarak scroll mencapai nilai tertentu, sambil tetap mengikuti pergeseran scroll di bawahnya.
 
-## Tantangan V
+# Tantangan V
 **Kode Program :**
 ```html
 <!DOCTYPE html>
@@ -965,7 +1002,7 @@ box-1{
 </body>
 </html>
 ```
-## Penjelasan HTML
+**Penjelasan HTML**
 - `<!DOCTYPE html>`: Mendefinisikan tipe dokumen HTML.
 - `<html lang="en">`: Menandakan awal dari dokumen HTML dengan bahasa Inggris.
 - `<head>`: Bagian kepala dokumen HTML yang berisi metadata dan referensi ke stylesheet.
@@ -1085,7 +1122,8 @@ box-1{
             margin-top: 10px;
         }
 ```
-## Penjelasan CSS
+
+**Penjelasan CSS**
 - `body`: Memberi warna latar belakang aqua pada halaman.
 - `.container`: Membuat tata letak kontainer menggunakan flexbox, memberi warna latar belakang putih, dan menentukan dimensi dan posisi.
 - `.item1`, `.item2`, `.item3`: Masing-masing memberikan warna latar belakang dan menentukan dimensi dan posisi elemen.
@@ -1094,9 +1132,10 @@ box-1{
 - `button`: Mengatur gaya untuk tombol, termasuk dimensi, warna latar belakang transparan, dan posisi.
 - `.like img`: Mengatur gaya untuk gambar di dalam tombol "suka".
 - `.item3 img`: Mengatur gaya untuk gambar di dalam item 3.
-**Hasil :**
+**Hasil Program :**
 ![Gambar](Aset/IMG11/IMG11_6.png)
-## Kesimpulan
+
+**Kesimpulan :**
 Program ini menggunakan HTML untuk membuat struktur konten dan CSS untuk merancang tampilannya. Elemen-elemen seperti gambar, teks, dan tombol diberikan gaya untuk menciptakan tampilan yang menarik dan responsif. Penggunaan posisi relatif, absolut, dan sticky memungkinkan penempatan yang tepat dari elemen-elemen tersebut di halaman.
 
 
